@@ -1169,7 +1169,7 @@ pre .javascript .function {
 }
 .links-of-author a::before,
 .links-of-author span.exturl::before {
-  background: #ffffbe;
+  background: #ffafcc;
   border-radius: 50%;
   content: ' ';
   display: inline-block;
@@ -2749,7 +2749,7 @@ pre {
   border: 1px solid #d6d6d6;
 }
 body {
-  background: url("/images/Linux高性能服务器编程.jpg");
+  background: url("/image/鬼刀(24).jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;

@@ -194,6 +194,65 @@
   
   
   <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="zh-CN">
+    <link itemprop="mainEntityOfPage" href="http://example.com/2024/01/31/%E5%B0%8F%E5%B0%8F%E7%9A%84%E5%BC%80%E5%A7%8B/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/images/avatar.gif">
+      <meta itemprop="name" content="lihuizhao">
+      <meta itemprop="description" content="学点东西不容易">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="study hard">
+    </span>
+      <header class="post-header">
+        <h2 class="post-title" itemprop="name headline">
+          
+            <a href="/2024/01/31/%E5%B0%8F%E5%B0%8F%E7%9A%84%E5%BC%80%E5%A7%8B/" class="post-title-link" itemprop="url">小小的开始</a>
+        </h2>
+
+        <div class="post-meta">
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="far fa-calendar"></i>
+              </span>
+              <span class="post-meta-item-text">发表于</span>
+              
+
+              <time title="创建时间：2024-01-31 19:23:32 / 修改时间：20:15:27" itemprop="dateCreated datePublished" datetime="2024-01-31T19:23:32+08:00">2024-01-31</time>
+            </span>
+
+          
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+          <p>&emsp;&emsp;学点东西可真不容易。想我一直以来的学习，都是跟着老师一步步走过来的，最然也有过自己的学习技巧，但大方向确实不需要我费脑筋，只需把眼前的东西学好就行。当我终于要靠自己决定学习方向和学习路线时，才发现这真不是一个简单的事情，往往不知道自己要学什么，也不知道自己要怎么学习，上网看看别人的经历经验，用到自己身上却总也行不通，或许计算机本身不太适合我，这是个同时需要逻辑思考与动手能力的学科。我自以为逻辑思考还算可以，但动手能力就真的不行了，每到写代码的时候，那些理论就无法转化为代码，在理论与实际之间总是隔了一层墙一般，而实践对我来说由如此困难，印象最深刻莫过于Linux系统，我已经不记得我当时在做什么了，只记得我要解决一个问题，然后在解决的过程中要用到什么工具还是要运行什么命令，然后这个工具和命令也报了错误，于是我先去解决这个错误，解决的过程中又出现了新的错误，如此循环，实在让人心累。或许也正是因为实践与理论相差太大，每当我想要去学点新东西时，不是实践拖累理论，就是理论拖累实践。当我看书时，因为不懂书中的实现，哪怕看着代码也很难理解它是怎么实现的，因为这些实践往往用到了其他理论，而我去学其他理论又会遇到同样的问题。当我想写点代码时，哪怕是照着代码抄都没办法抄好，因为我抄过来的代码往往运行不起来，或者结果错误，而我又不懂它的具体功能实现。这样相互拖累，导致我的学习进度一直提不上去，断断续续学了好几次，每次提升一点，没准还会掉下去。只能感叹学习真难呀，但哪怕是乌龟一样的速度，也终于让我爬了出来，这个月我照着代码写了web-server项目，虽然代码量很少，运行结果也有问题，但凭着以前琐碎的知识，总算是把它的大部分功能搞懂了，当我再看《Linux高性能服务器编程》这部书时，忽然有种豁然开朗的感觉。上大学，上研究生，在我的自学经历中这还是第一次有这种学会了的感觉。真不容易呀，可惜开窍的太晚，如果早几年，可能我的人生会不同吧。但过去的就过去吧，如今只希望这作为一个新的起点，可以让我学会更多的，不止计算机的知识。</p>
+
+      
+    </div>
+
+    
+    
+    
+      <footer class="post-footer">
+        <div class="post-eof"></div>
+      </footer>
+  </article>
+  
+  
+  
+
+      
+  
+  
+  <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="zh-CN">
     <link itemprop="mainEntityOfPage" href="http://example.com/2024/01/31/Linux%E9%AB%98%E6%80%A7%E8%83%BD%E6%9C%8D%E5%8A%A1%E5%99%A8%E7%BC%96%E7%A8%8B/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
@@ -255,65 +314,6 @@
 <p>&emsp;&emsp;我没有从头看这本书，而是直接从第八章“高性能服务器程序框架”看起，reactor、proactor两种事件处理模式，半同步&#x2F;半异步、领导者&#x2F;追随者两种并发模式看的迷迷糊糊，但也大致有了个概念，直到有限状态机这一节，我才发现之前写的代码和书里的一模一样。顺着往下读，第九章的时候我了解了select&#x2F;poll&#x2F;epoll这几种系统调用和i&#x2F;o复用，这一章有许多代码，几乎全部解释了我之前抄代码不懂的地方，读完这一章，我才明白自己写的代码是什么，这本书讲了什么。之后我便折了回去，从第五章开始看起，一直看到最后，这次看到顺畅了许多，许多不懂得地方上网搜搜资料就能改动，结合自己之前写的代码和书中的代码，终于理解了书中的内容。当看完了书的后半部分后，我才看了一到四章，这部分关于网络分层、IP、TCP的知识我在其他地方学过几遍，只有这一次结合着书本后面的知识理解了每一层在干什么，每一层的协议是什么。</p>
 <p>&emsp;&emsp;本书的精华自然是后半段，第五章介绍了如何调用函数进行网络连接，第六章是I&#x2F;O函数，第七章我没细看，主要讲规范，第八张是承上启下，介绍了服务器模型，如何用之前介绍的函数建立服务器，该服务器要实现之后章节介绍的功能。第九第十第十一算是服务器要实现的功能。第十二章要将前三章的功能进行整合。第十三第十四介绍了多进程&#x2F;多线程编程的问题，第十五则是前两章更进一步的应用。第十六、第十七则介绍了一些工具。本书的前半段介绍了基础协议，这几章给我的最大帮助就是它通过实例让我理解了这些协议具体是如何运作的。</p>
 <p>&emsp;&emsp;至此，整本书终于看完并学完了，不敢说百分百学透，至少能合格了。本书算是一个起点，让我燃起了读书的信心，希望自己能孜孜不倦，坚持下去。</p>
-
-      
-    </div>
-
-    
-    
-    
-      <footer class="post-footer">
-        <div class="post-eof"></div>
-      </footer>
-  </article>
-  
-  
-  
-
-      
-  
-  
-  <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="zh-CN">
-    <link itemprop="mainEntityOfPage" href="http://example.com/2024/01/31/%E5%B0%8F%E5%B0%8F%E7%9A%84%E5%BC%80%E5%A7%8B/">
-
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="image" content="/images/avatar.gif">
-      <meta itemprop="name" content="lihuizhao">
-      <meta itemprop="description" content="学点东西不容易">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="study hard">
-    </span>
-      <header class="post-header">
-        <h2 class="post-title" itemprop="name headline">
-          
-            <a href="/2024/01/31/%E5%B0%8F%E5%B0%8F%E7%9A%84%E5%BC%80%E5%A7%8B/" class="post-title-link" itemprop="url">小小的开始</a>
-        </h2>
-
-        <div class="post-meta">
-            <span class="post-meta-item">
-              <span class="post-meta-item-icon">
-                <i class="far fa-calendar"></i>
-              </span>
-              <span class="post-meta-item-text">发表于</span>
-              
-
-              <time title="创建时间：2024-01-31 19:23:32 / 修改时间：20:15:27" itemprop="dateCreated datePublished" datetime="2024-01-31T19:23:32+08:00">2024-01-31</time>
-            </span>
-
-          
-
-        </div>
-      </header>
-
-    
-    
-    
-    <div class="post-body" itemprop="articleBody">
-
-      
-          <p>&emsp;&emsp;学点东西可真不容易。想我一直以来的学习，都是跟着老师一步步走过来的，最然也有过自己的学习技巧，但大方向确实不需要我费脑筋，只需把眼前的东西学好就行。当我终于要靠自己决定学习方向和学习路线时，才发现这真不是一个简单的事情，往往不知道自己要学什么，也不知道自己要怎么学习，上网看看别人的经历经验，用到自己身上却总也行不通，或许计算机本身不太适合我，这是个同时需要逻辑思考与动手能力的学科。我自以为逻辑思考还算可以，但动手能力就真的不行了，每到写代码的时候，那些理论就无法转化为代码，在理论与实际之间总是隔了一层墙一般，而实践对我来说由如此困难，印象最深刻莫过于Linux系统，我已经不记得我当时在做什么了，只记得我要解决一个问题，然后在解决的过程中要用到什么工具还是要运行什么命令，然后这个工具和命令也报了错误，于是我先去解决这个错误，解决的过程中又出现了新的错误，如此循环，实在让人心累。或许也正是因为实践与理论相差太大，每当我想要去学点新东西时，不是实践拖累理论，就是理论拖累实践。当我看书时，因为不懂书中的实现，哪怕看着代码也很难理解它是怎么实现的，因为这些实践往往用到了其他理论，而我去学其他理论又会遇到同样的问题。当我想写点代码时，哪怕是照着代码抄都没办法抄好，因为我抄过来的代码往往运行不起来，或者结果错误，而我又不懂它的具体功能实现。这样相互拖累，导致我的学习进度一直提不上去，断断续续学了好几次，每次提升一点，没准还会掉下去。只能感叹学习真难呀，但哪怕是乌龟一样的速度，也终于让我爬了出来，这个月我照着代码写了web-server项目，虽然代码量很少，运行结果也有问题，但凭着以前琐碎的知识，总算是把它的大部分功能搞懂了，当我再看《Linux高性能服务器编程》这部书时，忽然有种豁然开朗的感觉。上大学，上研究生，在我的自学经历中这还是第一次有这种学会了的感觉。真不容易呀，可惜开窍的太晚，如果早几年，可能我的人生会不同吧。但过去的就过去吧，如今只希望这作为一个新的起点，可以让我学会更多的，不止计算机的知识。</p>
 
       
     </div>

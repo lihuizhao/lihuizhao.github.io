@@ -9,8 +9,32 @@
     <atom:link href="http://example.com/rss2.xml" rel="self" type="application/rss+xml"/>
     
     <description>学点东西不容易</description>
-    <pubDate>Sun, 28 Jan 2024 03:44:25 GMT</pubDate>
+    <pubDate>Wed, 31 Jan 2024 12:00:09 GMT</pubDate>
     <generator>http://hexo.io/</generator>
+    
+    <item>
+      <title>小小的开始</title>
+      <link>http://example.com/2024/01/31/%E5%B0%8F%E5%B0%8F%E7%9A%84%E5%BC%80%E5%A7%8B/</link>
+      <guid>http://example.com/2024/01/31/%E5%B0%8F%E5%B0%8F%E7%9A%84%E5%BC%80%E5%A7%8B/</guid>
+      <pubDate>Wed, 31 Jan 2024 11:23:32 GMT</pubDate>
+      
+        
+        
+      <description>&lt;h2 id=&quot;小小的开始&quot;&gt;&lt;a href=&quot;#小小的开始&quot; class=&quot;headerlink&quot; title=&quot;小小的开始&quot;&gt;&lt;/a&gt;小小的开始&lt;/h2&gt;&lt;p&gt;&amp;emsp;&amp;emsp;学点东西可真不容易。想我一直以来的学习，都是跟着老师一步步走过来的，最然也有过自己的学习技巧</description>
+        
+      
+      
+      
+      <content:encoded><![CDATA[<h2 id="小小的开始"><a href="#小小的开始" class="headerlink" title="小小的开始"></a>小小的开始</h2><p>&emsp;&emsp;学点东西可真不容易。想我一直以来的学习，都是跟着老师一步步走过来的，最然也有过自己的学习技巧，但大方向确实不需要我费脑筋，只需把眼前的东西学好就行。当我终于要靠自己决定学习方向和学习路线时，才发现这真不是一个简单的事情，往往不知道自己要学什么，也不知道自己要怎么学习，上网看看别人的经历经验，用到自己身上却总也行不通，或许计算机本身不太适合我，这是个同时需要逻辑思考与动手能力的学科。我自以为逻辑思考还算可以，但动手能力就真的不行了，每到写代码的时候，那些理论就无法转化为代码，在理论与实际之间总是隔了一层墙一般，而实践对我来说由如此困难，印象最深刻莫过于Linux系统，我已经不记得我当时在做什么了，只记得我要解决一个问题，然后在解决的过程中要用到什么工具还是要运行什么命令，然后这个工具和命令也报了错误，于是我先去解决这个错误，解决的过程中又出现了新的错误，如此循环，实在让人心累。或许也正是因为实践与理论相差太大，每当我想要去学点新东西时，不是实践拖累理论，就是理论拖累实践。当我看书时，因为不懂书中的实现，哪怕看着代码也很难理解它是怎么实现的，因为这些实践往往用到了其他理论，而我去学其他理论又会遇到同样的问题。当我想写点代码时，哪怕是照着代码抄都没办法抄好，因为我抄过来的代码往往运行不起来，或者结果错误，而我又不懂它的具体功能实现。这样相互拖累，导致我的学习进度一直提不上去，断断续续学了好几次，每次提升一点，没准还会掉下去。只能感叹学习真难呀，但哪怕是乌龟一样的速度，也终于让我爬了出来，这个月我照着代码写了web-server项目，虽然代码量很少，运行结果也有问题，但凭着以前琐碎的知识，总算是把它的大部分功能搞懂了，当我再看《Linux高性能服务器编程》这部书时，忽然有种豁然开朗的感觉。上大学，上研究生，在我的自学经历中这还是第一次有这种学会了的感觉。真不容易呀，可惜开窍的太晚，如果早几年，可能我的人生会不同吧。但过去的就过去吧，如今只希望这作为一个新的起点，可以让我学会更多的，不止计算机的知识。</p>]]></content:encoded>
+      
+      
+      
+      <category domain="http://example.com/tags/%E6%97%A5%E8%AE%B0/">日记</category>
+      
+      
+      <comments>http://example.com/2024/01/31/%E5%B0%8F%E5%B0%8F%E7%9A%84%E5%BC%80%E5%A7%8B/#disqus_thread</comments>
+      
+    </item>
     
     <item>
       <title>Hello World</title>
